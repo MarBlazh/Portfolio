@@ -1,0 +1,103 @@
+body {
+  background-blend-mode: luminosity;
+  background-image: url("background.fe40e636.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+header ul {
+  text-align: unset;
+  background-color: #0000007d;
+  border: 5px double #000;
+  margin: 20px 50px;
+  padding: 20px 30px;
+  list-style: none;
+  position: sticky;
+}
+
+header a {
+  text-align: center;
+  color: #fff;
+  margin-left: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-style: italic;
+}
+
+header a:hover {
+  color: red;
+  font-size: larger;
+}
+
+#cards .content {
+  background-color: beige;
+  border: 5px dashed;
+  border-radius: 5%;
+  margin-bottom: 30px;
+  font-family: Georgia, Times New Roman, Times, serif;
+  font-style: oblique;
+}
+
+#cards .content div > p {
+  color: red;
+  font-size: larger;
+  font-style: normal;
+  font-weight: bold;
+}
+
+#cards .image img {
+  border: 5px dashed;
+  border-radius: 5%;
+  max-width: 200px;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  margin-left: 50px;
+}
+
+#items .social-icons {
+  background-color: gray;
+  border: 20px;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+#items .social-icons a img {
+  max-width: 20px;
+}
+
+@media (width <= 768px) {
+  header ul {
+    margin: 10px 20px;
+    padding: 10px 20px;
+  }
+
+  header a {
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: 18px;
+  }
+}
+
+@media (width <= 992px) {
+  body {
+    background-size: contain;
+  }
+
+  #cards .content {
+    border: 3px;
+  }
+}
+
+@media (width <= 1200px) {
+  header ul {
+    border-width: 3px;
+  }
+
+  #items .social-icons {
+    border: 20px;
+  }
+}
+
+/*# sourceMappingURL=home.b11a88bd.css.map */

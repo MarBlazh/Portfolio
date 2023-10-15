@@ -1,0 +1,100 @@
+body {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: luminosity;
+  margin: 0;
+  padding: 0;
+}
+
+header ul {
+  margin: 20px 50px;
+  padding: 20px 30px;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.49);
+  position: sticky;
+  border: 5px;
+  border-color: black;
+  border-style: double;
+  text-align: unset;
+}
+header a {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  color: white;
+  margin-left: 10px;
+  margin-left: 10px;
+}
+
+header a:hover {
+  color: red;
+  font-size: larger;
+}
+#cards .content {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: 5px;
+  border-style: dashed;
+  border-radius: 5%;
+  background-color: beige;
+  font-style: oblique;
+  margin-bottom: 30px;
+}
+#cards .content div > p {
+  font-size: larger;
+  font-style: normal;
+  color: red;
+  font-weight: bold;
+}
+
+#cards .image img {
+  margin-left: 50px;
+  max-width: 200px;
+  max-height: fit-content;
+  border: 5px;
+  border-style: dashed;
+  border-radius: 5%;
+}
+
+#items .social-icons {
+  background-color: gray;
+  padding: 10px;
+  border: 30px;
+  border-width: 20px;
+  margin-top: 50px;
+}
+#items .social-icons a img {
+  max-width: 20px;
+}
+
+@media (max-width: 768px) {
+  header ul {
+    margin: 10px 20px;
+    padding: 10px 20px;
+  }
+  header a {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  body {
+    background-size: contain;
+  }
+
+  #cards .content {
+    border: 3px;
+  }
+}
+
+@media (max-width: 1200px) {
+  header ul {
+    border-width: 3px;
+  }
+  #items .social-icons {
+    border: 20px;
+  }
+}
